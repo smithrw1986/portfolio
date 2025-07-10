@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <title>Ryan Smith | Full Stack Web Developer</title>
   </head>
   <body class="light" id="top">
@@ -69,7 +70,7 @@
         </p>
 
         <div class="about__contact center">
-          <a href="https://example.com" target="_blank">
+          <a href="https://smithrw1986.github.io/resume/" target="_blank">
             <span class="btn btn--outline">Resume</span>
           </a>
 
@@ -102,6 +103,11 @@
               A React + Vite application that helps content creators plan,
               schedule, and track their content across multiple platforms.
             </p>
+            <img
+              src="images/content_creator_toolkit.png"
+              alt="Screenshot of Content Creator Toolkit"
+              class="project__image"
+            />
             <ul class="project__stack">
               <li class="project__stack-item">React</li>
               <li class="project__stack-item">Vite</li>
@@ -124,41 +130,82 @@
             </a>
           </div>
 
-          <div class="projects__grid">
-            <div class="project">
-              <h3>Virtual Game Night Organizer</h3>
-              <p class="project__description">
-                A full-stack web app built with React, Node.js, Express, and
-                PostgreSQL to let users create and manage game night events.
-                Deployed with Render and Netlify, with secure auth, timezone
-                handling, and a clean, responsive UI.
-              </p>
-              <ul class="project__stack">
-                <li class="project__stack-item">React</li>
-                <li class="project__stack-item">Vite</li>
-                <li class="project__stack-item">Node.js</li>
-                <li class="project__stack-item">Express</li>
-                <li class="project__stack-item">PostgreSQL</li>
-              </ul>
+          <div class="project">
+            <h3>Virtual Game Night Organizer</h3>
+            <p class="project__description">
+              A full-stack web app built with React, Node.js, Express, and
+              PostgreSQL to let users create and manage game night events.
+              Deployed with Render and Netlify, with secure auth, timezone
+              handling, and a clean, responsive UI.
+            </p>
+            <img
+              src="images/virtual_game_night_organizer.png"
+              alt="Screenshot of Virtual Game Night Organizer"
+              class="project__image"
+            />
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Vite</li>
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">Express</li>
+              <li class="project__stack-item">PostgreSQL</li>
+            </ul>
 
-              <a
-                href="https://github.com/rsmit118/virtual-game-night-organizer"
-                aria-label="source code"
-                class="link link--icon"
-              >
-                <i aria-hidden="true" class="fab fa-github"></i>
-              </a>
-              <a
-                href="https://virtual-game-night-organizer.netlify.app/"
-                aria-label="live preview"
-                class="link link--icon"
-              >
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </div>
+            <a
+              href="https://github.com/rsmit118/virtual-game-night-organizer"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://virtual-game-night-organizer.netlify.app/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
           </div>
 
-          <!-- Add more projects here -->
+          <div class="project">
+            <h3>"Weird Al" Parody Comparison</h3>
+            <p class="project__description">
+              A swipeable web app built with React, Vite, and Netlify Functions
+              that lets users compare "Weird Al" Yankovic’s hilarious parodies
+              with the original hit songs. Watch official YouTube videos, listen
+              to Spotify snippets, and cycle through curated song pairs in a
+              modern, responsive carousel. Fully hosted on Netlify with dynamic
+              API calls for real-time Spotify embeds.
+            </p>
+            <img
+              src="images/parody_comparison.png"
+              alt="Screenshot of Weird Al Parody Comparison"
+              class="project__image"
+            />
+
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Vite</li>
+              <li class="project__stack-item">Swiper.js</li>
+              <li class="project__stack-item">Spotify API</li>
+              <li class="project__stack-item">Netlify Functions</li>
+            </ul>
+
+            <a
+              href="https://github.com/smithrw1986/weird-al-parody-compare"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://weird-al-parody-compare.netlify.app"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -166,11 +213,14 @@
       <section class="section skills" id="skills">
         <h2 class="section__title">Skills</h2>
         <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">JavaScript (ES6+)</li>
           <li class="skills__list-item btn btn--plain">React</li>
           <li class="skills__list-item btn btn--plain">Java</li>
-          <li class="skills__list-item btn btn--plain">HTML</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">HTML5</li>
+          <li class="skills__list-item btn btn--plain">CSS3</li>
+          <li class="skills__list-item btn btn--plain">Node.js</li>
+          <li class="skills__list-item btn btn--plain">Express</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
           <li class="skills__list-item btn btn--plain">Git & GitHub</li>
           <li class="skills__list-item btn btn--plain">REST APIs</li>
           <li class="skills__list-item btn btn--plain">

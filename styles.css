@@ -221,7 +221,7 @@ button {
 }
 
 main {
-  max-width: 1100px;
+  max-width: 1400px;
   width: 95%;
   margin: 0 auto;
 }
@@ -265,7 +265,7 @@ main {
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 900px;
 }
 
 .about__desc,
@@ -282,27 +282,29 @@ main {
 }
 
 .projects__grid {
-  max-width: 1100px;
+  max-width: 1600px;
+  width: 95%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-template-columns: repeat(3, minmax(30em, 1fr));
   grid-gap: 2em;
+  justify-content: center;
 }
 
 .project {
-  padding: 2em;
+  padding: 1.5em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
 }
 
-.project:hover {
-  transform: translateY(-7px);
+.project__description {
+  margin-top: 0.5em;
 }
 
-.project__description {
-  margin-top: 1em;
+.project:hover {
+  transform: translateY(-7px);
 }
 
 .project__stack {
@@ -410,4 +412,14 @@ main {
   .scroll-container {
     display: none;
   }
+}
+
+.project__image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* optional: rounded corners */
+  margin-bottom: 1em; /* space between image and title */
+  box-shadow: var(--shadow); /* matches your card style */
+  display: block;
+  margin: 1rem auto; /* centers the image */
 }
